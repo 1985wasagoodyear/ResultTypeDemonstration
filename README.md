@@ -194,7 +194,7 @@ func loadPizzas(from file: URL) throws -> [Pizza]  {
 And we can load the pizzas like so
 
 ```swift
-let pResult: Result<[Pizza], Error> = Result(catching: loadPizzas(from: myFileURL))
+let pResult: Result<[Pizza], Error> = Result(catching: { try loadPizzas(from: myFileURL) } )
 switch pResult {
     case .success(let pizzas):
     	// do something with pizzas
