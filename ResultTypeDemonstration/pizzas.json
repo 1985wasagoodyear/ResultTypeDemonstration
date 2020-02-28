@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Pepperoni",
+        "price": 3.75
+    },
+    {
+        "name": "Cheese",
+        "price": 3.25
+    },
+    {
+        "name": "Deluxe",
+        "price": 3.75
+    },
+    {
+        "name": "Hawaiian",
+        "price": 3.50
+    }
+]
